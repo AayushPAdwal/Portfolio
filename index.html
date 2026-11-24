@@ -1,0 +1,543 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <title>Aayush Padwal | Portfolio</title>
+
+  <meta name="description" content="Aayush Padwal - Information Technology student, software developer and AI enthusiast. Explore my projects, skills and experience.">
+
+  <meta name="claude:viewport-fit-sides" content="cover">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap">
+
+  <link rel="stylesheet" href="style.css">
+
+  <script>
+    document.documentElement.classList.add("js");
+  </script>
+</head>
+
+<body>
+
+<header class="topbar" id="bar">
+  <div class="wrap">
+    <a class="brand" href="#top">
+      <span class="br">&gt;_</span>Aayush Padwal
+    </a>
+
+    <nav aria-label="Sections">
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO SECTION -->
+  <div class="hero" id="hero">
+
+    <canvas id="net" aria-hidden="true"></canvas>
+    <div class="glow" aria-hidden="true"></div>
+
+    <div class="wrap hero-grid">
+
+      <div>
+
+        <div class="mono eyebrow">
+          <span class="pulse"></span>
+          B.Tech IT &middot; Mumbai &middot; Class of 2027
+        </div>
+
+        <h1 aria-label="I build web applications, desktop software, AI-powered tools and IoT systems.">
+          <span class="line">I build</span>
+
+          <span class="rot" aria-hidden="true">
+            <span class="on">web applications</span>
+            <span>desktop software</span>
+            <span>AI-powered tools</span>
+            <span>IoT systems</span>
+          </span>
+        </h1>
+
+        <p class="lede">
+          I'm Aayush Padwal, an Information Technology student graduating in 2027 with hands-on experience in web applications, desktop software and IoT systems.
+        </p>
+
+        <p class="sub">
+          I work in Python, Java, JavaScript, TypeScript and React, and I'm looking for roles in software development, full stack development and artificial intelligence.
+        </p>
+
+        <div class="cta-row">
+
+          <a class="btn primary" href="https://github.com/AayushPAdwal" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.35.96.1-.74.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.62 1.59.23 2.76.11 3.05.74.81 1.18 1.83 1.18 3.09 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/>
+            </svg>
+            GitHub
+          </a>
+
+          <a class="btn" href="https://www.linkedin.com/in/aayush-padwal/" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45Z"/>
+            </svg>
+            LinkedIn
+          </a>
+
+          <a class="btn" href="#projects">See projects</a>
+
+        </div>
+
+        <!-- TERMINAL -->
+        <div class="term" id="term" aria-label="Terminal summary">
+
+          <div class="term-bar">
+            <i></i><i></i><i></i>
+            <span>aayush@mumbai: ~</span>
+          </div>
+
+          <div class="term-body">
+
+            <div class="t-row">
+              <span class="pr">$</span>
+              <span class="cmd" data-text="whoami"></span>
+            </div>
+
+            <div class="t-out">
+              <b>Aayush Padwal</b> &middot; B.Tech IT, class of 2027 &middot; Mumbai
+            </div>
+
+            <div class="t-row">
+              <span class="pr">$</span>
+              <span class="cmd" data-text="ls ~/projects"></span>
+            </div>
+
+            <div class="t-out">
+              <span class="nb">optimate/</span>
+              <span class="nb">flight-booking/</span>
+              <span class="nb">student-performance-ai/</span>
+              <span class="nb">jobpulse-ai/</span>
+            </div>
+
+            <div class="t-row">
+              <span class="pr">$</span>
+              <span class="cmd" data-text="echo $LOOKING_FOR"></span>
+            </div>
+
+            <div class="t-out">
+              software development &middot; full stack &middot; AI
+            </div>
+
+            <div class="t-row">
+              <span class="pr">$</span>
+              <span class="caret"></span>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- PROFILE PHOTO -->
+      <div class="photo">
+
+        <div class="tilt" id="tilt">
+
+          <div class="frame">
+
+            <!-- tech backdrop -->
+            <div class="stage" aria-hidden="true">
+              <span class="ring r1"></span>
+              <span class="ring r2"></span>
+              <span class="ring r3"></span>
+              <span class="axis h"></span>
+              <span class="axis v"></span>
+              <span class="code c1">&lt;/&gt;</span>
+              <span class="code c2">{ }</span>
+              <span class="code c3">01</span>
+            </div>
+
+            <picture>
+              <source srcset="aayush-cutout.webp" type="image/webp">
+              <img
+                class="cut"
+                src="aayush-cutout.png"
+                width="599"
+                height="1011"
+                alt="Portrait of Aayush Padwal in a beige blazer and black shirt, wearing glasses, hands in pockets"
+              >
+            </picture>
+
+            <span class="badge">
+              <span class="pulse"></span>
+              Seeking opportunities
+            </span>
+
+            <div class="float-row" aria-hidden="true">
+              <span class="float f1">React</span>
+              <span class="float f2">TypeScript</span>
+              <span class="float f3">Electron</span>
+              <span class="float f4">Python</span>
+            </div>
+
+            <div class="plate">
+              <span class="pn">Aayush Padwal</span>
+              <span class="pr2">Full stack &middot; AI &middot; IoT</span>
+            </div>
+
+          </div>
+
+          <span class="corner tl"></span>
+          <span class="corner tr"></span>
+          <span class="corner bl"></span>
+          <span class="corner br"></span>
+
+        </div>
+
+        <div class="caption">
+          <span>aayush@mumbai</span> ~ B.Tech IT, 2027
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- TECHNOLOGY TICKER -->
+  <div class="marquee" aria-label="Technologies I use">
+    <div class="track" id="track">
+      <span>Python</span>
+      <span>Java</span>
+      <span>C</span>
+      <span>JavaScript</span>
+      <span>TypeScript</span>
+      <span>React</span>
+      <span>Node.js</span>
+      <span>Electron</span>
+      <span>SQL</span>
+      <span>SQLite</span>
+      <span>MySQL</span>
+      <span>MongoDB</span>
+      <span>Prisma</span>
+      <span>Git</span>
+      <span>Power BI</span>
+      <span>ESP8266</span>
+    </div>
+  </div>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="wrap">
+
+      <div class="section-head rv">
+        <span class="mono">~/projects</span>
+        <h2>Things I'm building and have built</h2>
+      </div>
+
+      <div class="grid">
+
+        <article class="card linked span3 rv" data-d="0">
+
+          <div class="card-top">
+            <span class="path">~/optimate</span>
+            <span class="chip done"><i></i>Web App</span>
+          </div>
+
+          <h3>OptiMate</h3>
+
+          <p class="kind">Optical shop management system</p>
+
+          <p class="body">
+            An offline-first Windows desktop application that automates the daily running of an optical shop: customer profiles, eye examinations and prescriptions, appointments, frame and lens inventory, GST billing, spectacle and lab orders, expenses, reports and local backups.
+          </p>
+
+          <div class="card-foot">
+            <ul class="tags">
+              <li>Electron</li>
+              <li>React</li>
+              <li>TypeScript</li>
+              <li>Node.js</li>
+              <li>SQLite</li>
+              <li>Prisma</li>
+              <li>Vite</li>
+            </ul>
+            <span class="go">Repo <b>&#8599;</b></span>
+          </div>
+
+          <a class="card-hit" href="https://github.com/AayushPAdwal/OptiMate" target="_blank" rel="noopener noreferrer" aria-label="OptiMate repository on GitHub (opens in a new tab)"></a>
+
+        </article>
+
+        <article class="card span3 rv" data-d="120">
+
+          <div class="card-top">
+            <span class="path">~/jobpulse-ai</span>
+            <span class="chip"><i></i>Major Project</span>
+          </div>
+
+          <h3>JobPulse AI</h3>
+
+          <p class="kind">AI-powered job search and resume platform</p>
+
+          <p class="body">
+            A platform concept that parses resumes, matches them to jobs with an ATS-oriented approach and analyses skill gaps. Personalised learning roadmaps and job recommendations are planned next.
+          </p>
+
+          <div class="card-foot">
+            <ul class="tags">
+              <li>Resume parsing</li>
+              <li>ATS matching</li>
+              <li>Skill-gap analysis</li>
+              <li>AI</li>
+            </ul>
+          </div>
+
+        </article>
+
+        <article class="card linked rv" data-d="0">
+
+          <div class="card-top">
+            <span class="path">~/student-ai</span>
+            <span class="chip plain"><i></i>AI project</span>
+          </div>
+
+          <h3>Student Performance Prediction AI</h3>
+
+          <p class="kind">AI and prediction</p>
+
+          <p class="body">
+            An AI project that predicts student performance.
+          </p>
+
+          <div class="card-foot">
+            <ul class="tags">
+              <li>AI</li>
+              <li>Prediction</li>
+            </ul>
+            <span class="go">Repo <b>&#8599;</b></span>
+          </div>
+
+          <a class="card-hit" href="https://github.com/AayushPAdwal/Student-Performance-Prediction-AI" target="_blank" rel="noopener noreferrer" aria-label="Student Performance Prediction AI repository on GitHub (opens in a new tab)"></a>
+
+        </article>
+
+        <article class="card linked rv" data-d="120">
+
+          <div class="card-top">
+            <span class="path">~/flight-booking</span>
+            <span class="chip plain"><i></i>Web app</span>
+          </div>
+
+          <h3>Flight Booking System</h3>
+
+          <p class="kind">React front-end application</p>
+
+          <p class="body">
+            A web-based flight booking application with flight search, booking management and an interactive booking workflow.
+          </p>
+
+          <div class="card-foot">
+            <ul class="tags">
+              <li>React</li>
+              <li>JavaScript</li>
+            </ul>
+            <span class="go">Repo <b>&#8599;</b></span>
+          </div>
+
+          <a class="card-hit" href="https://github.com/AayushPAdwal/Flight_Booking" target="_blank" rel="noopener noreferrer" aria-label="Flight Booking System repository on GitHub (opens in a new tab)"></a>
+
+        </article>
+
+        <article class="card rv" data-d="240">
+
+          <div class="card-top">
+            <span class="path">~/rfid-attendance</span>
+            <span class="chip plain"><i></i>IoT</span>
+          </div>
+
+          <h3>RFID Attendance System</h3>
+
+          <p class="kind">Embedded and IoT</p>
+
+          <p class="body">
+            An attendance-tracking system that reads RFID cards, shows feedback on an LCD and records attendance automatically.
+          </p>
+
+          <div class="card-foot">
+            <ul class="tags">
+              <li>ESP8266</li>
+              <li>RFID</li>
+              <li>LCD</li>
+              <li>IoT</li>
+            </ul>
+          </div>
+
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="wrap">
+
+      <div class="section-head rv">
+        <span class="mono">~/skills</span>
+        <h2>My stack, as a file</h2>
+      </div>
+
+      <div class="codeblock rv">
+
+        <div class="code-bar">
+          <span>skills.json</span>
+          <span>read-only</span>
+        </div>
+
+        <div class="code-body" role="region" aria-label="Skills listed as JSON" tabindex="0">
+
+          <span class="l"><span class="p">{</span></span>
+          <span class="l">  <span class="k">"name"</span><span class="p">:</span> <span class="s">"aayush-padwal"</span><span class="p">,</span></span>
+          <span class="l">  <span class="k">"focus"</span><span class="p">:</span> <span class="s">"software, full stack and AI"</span><span class="p">,</span></span>
+          <span class="l">  <span class="k">"graduating"</span><span class="p">:</span> <span class="n">2027</span><span class="p">,</span></span>
+          <span class="l">  <span class="k">"languages"</span><span class="p">:</span> <span class="p">[</span><span class="s">"Python"</span><span class="p">,</span> <span class="s">"Java"</span><span class="p">,</span> <span class="s">"C"</span><span class="p">,</span> <span class="s">"JavaScript"</span><span class="p">,</span> <span class="s">"SQL"</span><span class="p">],</span></span>
+          <span class="l">  <span class="k">"frontend"</span><span class="p">:</span> <span class="p">[</span><span class="s">"HTML"</span><span class="p">,</span> <span class="s">"CSS"</span><span class="p">,</span> <span class="s">"React"</span><span class="p">,</span> <span class="s">"TypeScript"</span><span class="p">],</span></span>
+          <span class="l">  <span class="k">"backend_desktop"</span><span class="p">:</span> <span class="p">[</span><span class="s">"Node.js"</span><span class="p">,</span> <span class="s">"Electron"</span><span class="p">],</span></span>
+          <span class="l">  <span class="k">"databases"</span><span class="p">:</span> <span class="p">[</span><span class="s">"MySQL"</span><span class="p">,</span> <span class="s">"MongoDB"</span><span class="p">,</span> <span class="s">"SQLite"</span><span class="p">,</span> <span class="s">"Prisma"</span><span class="p">],</span></span>
+          <span class="l">  <span class="k">"tools"</span><span class="p">:</span> <span class="p">[</span><span class="s">"Git"</span><span class="p">,</span> <span class="s">"GitHub"</span><span class="p">,</span> <span class="s">"VS Code"</span><span class="p">,</span> <span class="s">"Power BI"</span><span class="p">,</span> <span class="s">"Excel"</span><span class="p">]</span></span>
+          <span class="l"><span class="p">}</span></span>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="wrap">
+
+      <div class="section-head rv">
+        <span class="mono">~/education</span>
+        <h2>Education and certifications</h2>
+      </div>
+
+      <div class="edu-card rv">
+
+        <div>
+          <span class="mono">Degree</span>
+          <p class="degree">B.Tech in Information Technology</p>
+          <p class="meta">Shah and Anchor Kutchhi Engineering College, Mumbai</p>
+        </div>
+
+        <dl class="facts">
+          <div>
+            <dt>Years</dt>
+            <dd>2023 &ndash; 2027</dd>
+          </div>
+          <div>
+            <dt>CGPA</dt>
+            <dd>7.5 / 10</dd>
+          </div>
+        </dl>
+
+      </div>
+
+      <h3 class="cert-title rv">Certifications &amp; virtual internships</h3>
+
+      <div class="cert-grid">
+
+        <div class="cert wide rv" data-d="0">
+          <span class="issuer">Deloitte</span>
+          <h4>Technology Virtual Internship</h4>
+          <span class="chip done"><i></i>Virtual internship</span>
+        </div>
+
+        <div class="cert wide rv" data-d="120">
+          <span class="issuer">Tata</span>
+          <h4>GenAI Powered Data Analytics Virtual Internship</h4>
+          <span class="chip done"><i></i>Virtual internship</span>
+        </div>
+
+        <div class="cert rv" data-d="0">
+          <span class="issuer">IBM Skills Network</span>
+          <h4>SQL and Relational Databases 101</h4>
+          <span class="chip plain"><i></i>Certification</span>
+        </div>
+
+        <div class="cert rv" data-d="120">
+          <span class="issuer">Simplilearn</span>
+          <h4>Introduction to Artificial Intelligence</h4>
+          <span class="chip plain"><i></i>Certification</span>
+        </div>
+
+        <div class="cert rv" data-d="240">
+          <span class="issuer">Cisco Networking Academy</span>
+          <h4>Networking Basics</h4>
+          <span class="chip plain"><i></i>Certification</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="wrap">
+
+      <div class="contact-card rv">
+
+        <span class="mono" style="color: var(--accent)">~/contact</span>
+
+        <h2>Let's build something together.</h2>
+
+        <p>
+          I'm looking for software development, full stack and AI opportunities starting after I graduate in 2027. Reach me on GitHub, LinkedIn or by email.
+        </p>
+
+        <div class="contact-row">
+
+          <a class="btn primary" href="https://github.com/AayushPAdwal" target="_blank" rel="noopener noreferrer">
+            GitHub
+          </a>
+
+          <a class="btn" href="https://www.linkedin.com/in/aayush-padwal/" target="_blank" rel="noopener noreferrer">
+            LinkedIn
+          </a>
+
+          <button class="btn" id="copy-btn" type="button">
+            Copy email
+          </button>
+
+          <span class="copied" id="copy-status" role="status" aria-live="polite"></span>
+
+        </div>
+
+        <span class="email" id="email-text">
+          aayushpadwal06@gmail.com
+        </span>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>&copy; 2026 Aayush Ganesh Padwal</span>
+    <span>Mumbai, India &middot; built with HTML, CSS and a little JavaScript</span>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
+
+</body>
+</html>
